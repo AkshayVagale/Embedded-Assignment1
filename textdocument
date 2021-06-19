@@ -1,0 +1,21 @@
+1.Find out details about moxa Board?
+Ans-Moxa is a multiport serial board.Product catergory of moxa is divide into 3 type:a.PCIe/UPCI/PCI Serial Cards b.CANbus Serial Boards c.PC/104 Serial Boards
+
+Use of this board is:
+1.Industrial Network Infrastructure
+2.Ethernet Switches.
+3.Secure Routers.
+4.Wireless AP/Bridge/Client.
+5.Cellular Gateways/Routers.
+6.Ethernet Media Converters.
+7.Network Management Software.
+8.Secure Remote Access.
+9.Network Security Appliance.
+
+Operating system support  -(PCIe Board)- Windows, Windows CE,DOS, Linux, and SCO
+
+Programming languages-To develop applications with programming languages
+like Visual C++, Visual Basic, Borland C++, Borland Delphi, UNIX C, etc
+
+2.Why inline function needs Static Storage classes?
+Ans-It will emit a locally visible (out-of-line copy of the) function if required. Regardless of the storage class, the compiler can ignore the inline qualifier and generate a function call in all C dialects and C++.:
