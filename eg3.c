@@ -1,20 +1,10 @@
-//-------------------decimal to binary using recursive-----------------
-
 #include<stdio.h>
-int fun(int n)
+void main()
 {
-     if(n==0)
-	return;
-     else
-	     fun(n/2);
-             printf("%d\n",n%2);
+	int a=2,b=1;
+	int x=(a++ && (!b) && b|| ++a);
+        printf("%d",x);
 
 }
-int main()
-{
-        int n;
-	printf("Enter the decimal number");
-	scanf("%d",&n);
-	fun(n);
-	return 0;
-}
+//-----------------output---------------
+//1
