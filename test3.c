@@ -12,5 +12,7 @@ void main()
  printf("ch1=%d\n",ch2);
  printf("ch1=%d\n",ch3);
 }
-
+/*
+Outpu: ?
+*/
 
