@@ -6,9 +6,9 @@
 
 void main()
 {
-	char *time_now;
+	char *time_now; 
 	time_t t =time(NULL);
-	time_now=ctime(&t);
+	time_now=ctime(&t); //check this logic
 
 	printf("data and date now:%s",time_now);
 }
